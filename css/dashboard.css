@@ -1,0 +1,53 @@
+.dashboard-navigation{
+background-color: #e7e7e7;
+    border-top: 1px #dcdcdc solid;
+    border-right: 1px solid #ccc;
+    display: block;
+    position: absolute;
+    overflow: none;
+    top: 42px;
+    bottom: 0;
+    left: -1px;
+    width: 60px;
+    z-index: 9;
+}
+
+
+.dash-header{
+    background-color: #78A300;
+    background-repeat: repeat-x;
+    left: 0;
+    position: absolute;
+    right: 0;
+    height: 42px;
+    top: 0;
+    z-index: 10;
+    padding-left: 60px;
+}
+
+.dashboard-layout{
+	background-color: transparent;	
+}
+
+.nav-list li {
+	list-style-type: none;
+	position:relative;
+	left:-40px
+}
+
+.nav-list li img{
+	height:30px;
+	width:30px;
+	margin:4px;
+	border:solid 1px lightgrey;
+	padding:10px;
+	border-radius:50px;
+}
+
+
+.nav-list li:hover {
+/* padding:20px; */
+	height:30px;
+	width:30px;
+	background-color: #0e88b2;
+}

@@ -1,0 +1,26 @@
+.dashboard-navigation{
+background-color: #e7e7e7;
+    border-top: 1px #dcdcdc solid;
+    border-right: 1px solid #ccc;
+    display: block;
+    position: absolute;
+    overflow: none;
+    top: 42px;
+    bottom: 0;
+    left: -1px;
+    width: 60px;
+    z-index: 9;
+}
+
+.dashboard-layout{
+	background-color: pink;	
+}
+
+.nav-list li {
+	size: 60px;
+	list-style-type: none;
+}
+
+nav-list li:hover {
+	background-color: gray;
+}
